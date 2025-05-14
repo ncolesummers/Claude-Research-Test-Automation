@@ -6,7 +6,7 @@ This document outlines the research process used to investigate testing automati
 
 ### 1.1 Research Objectives
 
-- Develop comprehensive testing strategies for multiple technology stacks (Pro*C, PL/SQL, Groovy, TypeScript/JavaScript)
+- Develop comprehensive testing strategies for multiple technology stacks (Pro\*C, PL/SQL, Groovy, TypeScript/JavaScript)
 - Identify specialized frameworks suitable for university environments
 - Create decision frameworks for selecting appropriate testing types
 - Develop implementation approaches aligned with academic calendars and institutional constraints
@@ -51,6 +51,7 @@ For each research phase, I designed prompts following these principles:
 5. **Format Specification**: Defined output formats (tables, examples, frameworks)
 
 Example prompt structure:
+
 ```
 Conduct comprehensive research on testing frameworks for [specific technology] in university environments.
 
@@ -73,6 +74,7 @@ Please structure your research to include:
 ### 3.1 Claude Research
 
 Claude's Research feature (Beta) was the primary research tool, enabling:
+
 - Systematic exploration of testing methodologies
 - Deep dives into specific frameworks
 - Comparative analysis of implementation approaches
@@ -83,6 +85,7 @@ I used the feature to generate comprehensive research reports on each area ident
 ### 3.2 Claude Projects
 
 Claude Projects served as the initial knowledge management system, allowing:
+
 - Organization of research outputs by topic
 - Storage of interim findings
 - Reference to previous research during subsequent phases
@@ -91,6 +94,7 @@ Claude Projects served as the initial knowledge management system, allowing:
 ### 3.3 Claude Code
 
 Claude Code was essential for developing implementation examples and code snippets, particularly for:
+
 - Test automation framework configurations
 - Example test implementations
 - Documentation generation tools
@@ -99,6 +103,7 @@ Claude Code was essential for developing implementation examples and code snippe
 ### 3.4 mdbook CLI
 
 The mdbook CLI (used by official Rust documentation) was utilized to:
+
 - Compile multiple markdown files into a cohesive website
 - Create a navigable structure for research findings
 - Enable easy sharing of comprehensive research results
@@ -107,6 +112,7 @@ The mdbook CLI (used by official Rust documentation) was utilized to:
 ### 3.5 Subscription Resources
 
 The Max plan provided access to:
+
 - Research capabilities in beta
 - Claude Code functionality
 - Extended context window for comprehensive research
@@ -117,6 +123,7 @@ The Max plan provided access to:
 ### 4.1 Initial Meta-Research
 
 The process began with research on effective prompting techniques for Claude Research:
+
 1. Explored prompt structures that yield comprehensive results
 2. Identified effective ways to specify research scope
 3. Developed approaches for ensuring citation quality
@@ -125,6 +132,7 @@ The process began with research on effective prompting techniques for Claude Res
 ### 4.2 Research Plan Creation
 
 Using meta-research findings, I developed a structured research plan:
+
 1. Defined specific research questions for each area
 2. Created phased approach to build knowledge systematically
 3. Developed progression from foundational knowledge to specialized applications
@@ -133,6 +141,7 @@ Using meta-research findings, I developed a structured research plan:
 ### 4.3 Systematic Research Execution
 
 Research was conducted systematically following the research plan:
+
 1. Core testing fundamentals for university environments
 2. Framework-specific research for each technology
 3. Specialized testing needs (accessibility, performance, security)
@@ -142,6 +151,7 @@ Research was conducted systematically following the research plan:
 ### 4.4 Knowledge Management
 
 As research progressed, knowledge management evolved:
+
 1. Initially stored findings in Claude Projects
 2. Encountered context limitations as research expanded
 3. Transitioned to local repository for more effective management
@@ -150,6 +160,7 @@ As research progressed, knowledge management evolved:
 ### 4.5 Documentation Development
 
 The documentation approach evolved throughout the process:
+
 1. Created structured markdown outputs from each research phase
 2. Developed interconnections between research areas
 3. Organized content for logical progression
@@ -173,11 +184,11 @@ The documentation approach evolved throughout the process:
 
 ### 5.2 Process Challenges
 
-**Challenge**: Personal reading comprehension and speed limitations when reviewing extensive research.
-**Solution**: Implemented systematic note-taking and developed section-by-section review approach.
+**Challenge**: Researcher (Nate) becoming the bottleneck in the research process when reviewing extensive materials.
+**Solution**: Read the previous report while Claude researches the next, this approach could benefit from dividing research among multiple Claude-assisted researchers.
 
-**Challenge**: Managing multiple interconnected research threads.
-**Solution**: Created research dependency map to track relationships between topics and maintain coherence.
+**Challenge**: Managing multiple interconnected research threads without losing coherence.
+**Solution**: Developed organizational structure based on research phases and technology areas, with clear cross-references between related topics.
 
 **Challenge**: Translating research findings into actionable implementation guidance.
 **Solution**: Developed standardized templates for implementation plans, resource requirements, and risk assessments.
@@ -195,6 +206,7 @@ The documentation approach evolved throughout the process:
 ### 6.1 Content Structure
 
 The final research documentation was organized into:
+
 1. Core testing methodologies
 2. Technology-specific frameworks
 3. Decision frameworks for testing selection
@@ -206,6 +218,7 @@ The final research documentation was organized into:
 ### 6.2 Website Development
 
 Using mdbook CLI, created a documentation website with:
+
 - Hierarchical navigation structure
 - Cross-referenced content
 - Code examples and implementation guidance
@@ -214,6 +227,7 @@ Using mdbook CLI, created a documentation website with:
 ### 6.3 Knowledge Presentation
 
 Research findings were presented through multiple formats:
+
 - Narrative explanations of methodologies
 - Comparative tables for framework evaluation
 - Decision trees for testing selection
@@ -239,6 +253,7 @@ Research findings were presented through multiple formats:
 ### 7.3 Process Improvements
 
 For future research projects, implement:
+
 - Pre-defined knowledge management structure before beginning research
 - Standardized templates for different research outputs
 - Systematic bibliography generation within each research session
@@ -314,6 +329,7 @@ Format as an implementation blueprint with actionable guidance for university IT
 To preserve sources when transferring research to Project Knowledge:
 
 1. After receiving research output, request a bibliography in the same chat session:
+
    ```
    Please provide a complete bibliography of all sources you consulted for this research, including URLs where available.
    ```
