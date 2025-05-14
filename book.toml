@@ -3,7 +3,7 @@ authors = ["Nathan Summers <nsummers@uidaho.edu>"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Optimizing Prompting Techniques for Test Automation Engineering"
+title = "Comprehensive Test Automation Strategies for Higher Education"
 description = "A comprehensive guide for test automation at R1 universities using Claude 3.7 Sonnet"
 
 [output.html]
