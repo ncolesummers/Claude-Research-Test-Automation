@@ -1,0 +1,27 @@
+[book]
+authors = ["Nathan Summers <nsummers@uidaho.edu>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Optimizing Prompting Techniques for Test Automation Engineering"
+description = "A comprehensive guide for test automation at R1 universities using Claude 3.7 Sonnet"
+
+[output.html]
+mathjax-support = true
+git-repository-url = ""
+edit-url-template = ""
+additional-css = ["custom.css"]
+additional-js = ["custom.js"]
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
